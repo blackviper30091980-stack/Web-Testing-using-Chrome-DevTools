@@ -6,7 +6,7 @@ TC-P-001 Login with valid credentials
 
 - Preconditions: SauceDemo website is available
 
-- Test Data: standart_user / secret_sauce
+- Test Data: username / password
 
 - Steps: - open the login page
 
@@ -29,4 +29,27 @@ TC-P-002   Verify  susseccful logout
 
 - Preconditions: Saucedemo is available. The user is already logged in the system
 
-- Test Data : 
+- Test Data : username / password
+
+- Steps:- log in the system
+
+- open the menu
+
+- click Logout
+
+- Expected Result: User is redirected to the Login page.Session is terminated.Protected pages are no longer accessible without loggining in again.
+
+- Test Type: Functional
+
+- Test Design Technique: State Transition testing
+
+
+ 2. PRODUCT CATALOG
+
+TC-P-003  Verify the users can browse the product catalog
+
+- Module: Product Catalog
+
+- Preconditions: The user is already logged in the system.The menu button is clickable.
+
+- Test Data: 
