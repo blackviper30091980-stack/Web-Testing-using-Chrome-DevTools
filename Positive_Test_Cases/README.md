@@ -6,7 +6,7 @@ TC-P-001 Login with valid credentials
 
 - Preconditions: SauceDemo website is available
 
-- Test Data: username / password
+- Test Data: username- standart_user/ password- secret_sauce
 
 - Steps: - open the login page
 
@@ -29,7 +29,7 @@ TC-P-002   Verify  susseccful logout
 
 - Preconditions: Saucedemo is available. The user is already logged in the system
 
-- Test Data : username / password
+- Test Data : username - standart_user/ password - secret_sauce
 
 - Steps:- log in the system
 
@@ -46,10 +46,24 @@ TC-P-002   Verify  susseccful logout
 
  2. PRODUCT CATALOG
 
-TC-P-003  Verify the users can browse the product catalog
+TC-P-003  Verify product catalog browsing
 
 - Module: Product Catalog
 
-- Preconditions: The user is already logged in the system.The menu button is clickable.
+- Preconditions: The user is successfuly logged in the application
 
-- Test Data: 
+- Test Data: username - standart_user/ password - secret_sauce
+
+- Steps:
+
+- open the Product page
+
+- browse the product catalog
+
+- verify that product names,images and prices are displayed
+
+- Expected Result: The Product page is displayed.The product catalog is loaded successfuly.Product images,names,prices and Add to the cart button is displayed correctly
+
+- Test Type: Functional
+
+- Test Design Technique: Exploratory Testing  
