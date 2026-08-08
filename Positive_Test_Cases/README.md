@@ -66,4 +66,51 @@ TC-P-003  Verify product catalog browsing
 
 - Test Type: Functional
 
-- Test Design Technique: Exploratory Testing  
+- Test Design Technique: Exploratory Testing
+
+
+TC-P-004 Verify that product details are displayed correctly
+
+- Module: Product Catalog
+
+- Preconditions: User is successfuly logged in the application.The Products page is displayed.
+
+- Test Data: Product: any available product
+
+- Steps:
+
+- select a product from the product catalog
+
+- click on the product image
+
+- verify that product details are displayed
+
+- Expected Result: The product name,description,price and Add to the cart button are dispalyed after the user clickcs on the product image
+
+- Test Type: Functional
+
+- Test Design Technique: Exploratory Testing
+
+
+TC-P-005 Verify  UI using visual_user
+
+- Module: Product catalog
+
+- Preconditions: The user is successfuly logged in the application using visual_user.The Products page is displayed
+
+- Test Data: username - visual_user / password - secret_sause
+
+- Steps: - browse the product catalog
+
+- verify the visibility and visual rendering of the product images,names,prices and Add to the Cart buttons.
+
+- Expected Result: The Product Page  and its UI elenents are displayed correctly without visible alignment or rendering issues.
+
+- Test Type: UI Testing
+
+- Test Techniques: Exploratory Testing
+
+
+
+3. SHOPPING CART
+
