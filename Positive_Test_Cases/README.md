@@ -114,7 +114,7 @@ TC-P-005 Verify  UI using visual_user
 
 3. SHOPPING CART
 
-TC-P-006 Verify that Add one item operation is available
+TC-P-006 Verify that the user can add one item to the cart
 
 Module: Shopping Cart
 
@@ -133,6 +133,59 @@ Steps: - log in the application
 - open the shopping cart
 
 Expected Result: The selected product is displayed in the shopping cart with the correct name,price and quantity.
+
+Test Type: Functional
+
+Test Technique: State Transition 
+
+
+TC-P-007 Verify that the  user can add several items to the cart
+
+Module: Shopping Cart
+
+Preconditions: The Product Page and its UI elements are displayed
+
+Test Data: Products: Sauce Labs Backpack,Sauce Labs Bike Light,Sauce Labs Bolt T-Shirt
+
+Quantity: 1 each
+
+Steps: - log in the application
+
+- open the product page
+
+- click "Add to the cart" button for each item
+
+- open the shopping cart
+
+Expected Result: The selected products are displayed in the shopping cart with correct name,price and quantity
+
+Test Type: Functional
+
+Test Technique: State Transition
+
+
+
+TC-P-008 Verify that the user can remove the product from the cart
+
+Module: Shopping Cart
+
+Preconditions: The products are displayed in the shopping cart
+
+Test Data: Product: Sauce Labs Bolt T-Shirt
+
+Quantity: 1
+
+Steps: - log in the application
+
+- open the Product Page
+
+- click "Add to the cart" button
+
+- open the shopping cart
+
+- click on "Remove" button
+
+Expected Result: The product is successfully removed from the shopping cart.The product is no longer displayed in the shopping cart.
 
 Test Type: Functional
 
