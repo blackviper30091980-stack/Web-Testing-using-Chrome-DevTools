@@ -118,7 +118,24 @@ TC-P-006 Verify that Add one item operation is available
 
 Module: Shopping Cart
 
-Preconditions:The Product page  and its UIelements are displayed.
+Preconditions:The Product page  and its UI elements are displayed.
 
-Test Data: 
+Test Data: Product: Sauce Labs Backpack
+
+Quantity: 1
+
+Steps: - log in the application
+
+- open the Product Page
+
+- click " Add to cart" button for sauce Labs Backpack
+
+- open the shopping cart
+
+Expected Result: The selected product is displayed in the shopping cart with the correct name,price and quantity.
+
+Test Type: Functional
+
+Test Technique: State Transition
+
 
