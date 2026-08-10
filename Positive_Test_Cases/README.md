@@ -118,7 +118,7 @@ TC-P-006 Verify that the user can add one item to the cart
 
 Module: Shopping Cart
 
-Preconditions:The Product page  and its UI elements are displayed.
+Preconditions: The user is logged in the application.The Product page  and its UI elements are displayed.
 
 Test Data: Product: Sauce Labs Backpack
 
@@ -143,7 +143,7 @@ TC-P-007 Verify that the  user can add several items to the cart
 
 Module: Shopping Cart
 
-Preconditions: The Product Page and its UI elements are displayed
+Preconditions: The user is logged in the application. The Product Page and its UI elements are displayed
 
 Test Data: Products: Sauce Labs Backpack,Sauce Labs Bike Light,Sauce Labs Bolt T-Shirt
 
@@ -194,12 +194,62 @@ Test Technique: State Transition
 
 4. CHECKOUT
 
-TC-P-009 Verify the checkout complition
+TC-P-009 Verify the checkout completion
 
 Modul: Checkout
 
 Preconditions: The product is displayed in the shopping cart
 
-Test Data: 
+Test Data: first name,last name,zip/postal code
+
+Steps: - log in the application
+
+- open the product page
+
+- click on the "Add to the cart" button
+
+- open the shopping cart
+
+- click on "Checkout" button
+
+- enter the user data: fist name,last name,zip/postal code
+
+- click on "Continue" button
+
+- verify the order overview
+
+- click " Finish"
+
+Expected Result:The checkout is successfully completed.The order confirmation message  is displayed.
+
+Test Type: Functional
+
+Test Technique: State Transition
+
+
+TC-P-010 Verify order details on checkout overview page
+
+Module: Checkout
+
+Preconditions: The user is logged into application.At least one product is added to the shopping cart.
+
+Test Data:user data: first name,last name,zip/postal code
+
+Steps: - open the shopping cart
+
+- click" Checkout"
+
+- enter valid customer information
+
+- click "Continue"
+
+- verify the order details
+
+Expected Result: The Checkout overview is displayed with the correct product and its description,correct product quantity,correct price including item total,tax and total price,also the " Finish" button is displayed.
+
+Test Type: Functional
+
+Test Technique: Decision Table Testing
+
 
 
