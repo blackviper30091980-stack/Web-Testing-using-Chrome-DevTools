@@ -192,3 +192,14 @@ Test Type: Functional
 Test Technique: State Transition
 
 
+4. CHECKOUT
+
+TC-P-009 Verify the checkout complition
+
+Modul: Checkout
+
+Preconditions: The product is displayed in the shopping cart
+
+Test Data: 
+
+
