@@ -44,6 +44,12 @@ Valid data: Latin lowecase and capital letters, hyphen,apostrophes,diacritics
 
 invalid data: figures,special symbols( excepting hyphen and apostrophes),null,empty field,very long value
 
+Zip/Postal Code
+
+Valid data: integer value
+
+Invalid data: empty value, letters,letters+ numbers,special symbols,too long value
+
  4. BROWSER TEST DATA
 
 Cookies
