@@ -114,3 +114,11 @@ TC-P-005 Verify  UI using visual_user
 
 3. SHOPPING CART
 
+TC-P-006 Verify that Add one item operation is available
+
+Module: Shopping Cart
+
+Preconditions:The Product page  and its UIelements are displayed.
+
+Test Data: 
+
