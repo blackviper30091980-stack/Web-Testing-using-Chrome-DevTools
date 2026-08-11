@@ -321,7 +321,38 @@ Test Approach: Exploratory Testing
 
 
 
-TC-P-013 
+TC-P-013 Verify Local Storage is updated when adding a product to the cart
+
+Module: Chrome DevTools
+
+Preconditions: User is logged in with valid credentials
+
+Test Data: Username: standart_user; password: secret_sauce
+
+Steps: 
+- log into the application
+
+- open the product page
+
+- open Chrome DevTOols
+
+- navigate to Application--Local Storage--https://www.saucedemo.com
+
+- locate the cart-content key
+
+- add a product to the cart
+
+- check the cart-content value in the Local Storage
+
+- remove the product from the cart
+
+- check the cart-content value again
+
+Expected Result: Tye cart-content key is present in the Local Storage.After adding a product the cart-contents value is updated and contains the identifier of the added product.After removing the product the cart-content value is updated accordingly.
+
+Test Type: Functional
+Test Technique: Checklist-based testing
+  
 
 
 
