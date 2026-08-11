@@ -260,5 +260,39 @@ Module: Chrome DevTools
 
 Preconditions: The user is successfully logged in to the application.Chrome DevTools is opened.The Network tab is selected.
 
+Test Data: Username: standart_user; password: secret_sauce
+
+Steps:
+- log into the application
+
+- open the product page
+
+- open Chrome DevTools
+
+- navigate to the Network tab
+
+- select the Doc filter
+
+- select the page document request
+
+- open the Headers tab
+
+- verify the status code is 200 OK
+
+- verify the Content-Type response headers is text/html
+
+- open the Response tab
+
+-verify that the response contains HTML content
+
+Expected Result: The page document request is successfully completed with status code 200 OK.The Response contains HTML content and the Content-Type header is text/html.
+
+Test Type: Functional
+
+Test Technique: Checklist-based Testing
+
+
+TC-P-012 Verify Cookies
+
 
 
