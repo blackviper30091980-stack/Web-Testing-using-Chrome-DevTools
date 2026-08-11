@@ -252,4 +252,13 @@ Test Type: Functional
 Test Technique: Decision Table Testing
 
 
+5.CHROME DEvTOOLS
+
+TC-P-011 Verify Network request when opening the Product Page
+
+Module: Chrome DevTools
+
+Preconditions: The user is successfully logged in to the application.Chrome DevTools is opened.The Network tab is selected.
+
+
 
