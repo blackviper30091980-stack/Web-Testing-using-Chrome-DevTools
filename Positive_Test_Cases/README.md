@@ -292,7 +292,36 @@ Test Type: Functional
 Test Technique: Checklist-based Testing
 
 
-TC-P-012 Verify Cookies
+TC-P-012 Verify session cookie for authentificated user
+
+Module: Chrome DevTools
+
+Preconditions: User is logged in with valid credentials
+
+Test Data: Username: standart_user; password: secret_sauce
+
+Steps: 
+- log in to the application with valid credentials
+
+- open Chrome DevTools
+
+- navigatev to Application- Storage-Cookies
+
+- select https://www.sausedemo.com
+
+- verify that the session cookie is present
+
+- verify that the cookie value is standart_user
+
+Expected Result: The session cookie is successfully created for the authentificated user.The cookie is displayed under https://www.sausedemo.com.The cookie value corresponds to the authentificated user: standart_user.
+
+Test Type: Functional
+
+Test Approach: Exploratory Testing
+
+
+
+TC-P-013 
 
 
 
