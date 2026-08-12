@@ -144,6 +144,44 @@ Test Type: Functional Testing
 
 Test Technique: Negative Testing
 
+
+4. CHECKOUT
+
+NTC-07 Complete checkout with empty required field
+
+Modul: Checkout
+
+Test Data:- Username: standart_user;passworrd: secret_sauce
+
+- Product: any available product
+
+- User data: username
+
+Preconditions: User is logged in.At least one product is added to the shopping cart.Shopping cart is not empty.
+
+Steps: 
+- open the shopping cart
+
+- click Checkout
+
+- leave the Last name field empty
+
+- enter valid data into remaining required field
+
+- click Continue
+
+Expected Result: The system prevents the user from proceeding to the checkout overview and displays a validation message indicating that the Last Name field is required
+
+Test Type: Functional Testing
+
+Test Technique: Negative Testing
+
+
+
+
+
+
+
  
 
   
