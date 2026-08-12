@@ -54,7 +54,101 @@ NTC-03 Verify product catalog behavior with visual_user
 
 Modul: Product Catalog
 
-Test Data: 
+Test Data: Username: visual_user; password: secret_sauce
+
+Precondition: The user is logged in as a visual_user.
+
+Steps: 
+
+
+- open the product page
+
+- browse the product catalog
+
+- verify the product images and layout
+
+Expected Result: The product catalog remains functional.The visual defects do not prevent the user from browsing products.
+
+Test Type: UI/Visual Testing
+
+Test Technique: Checklist-based
+
+
+ NTC-04 Verify product catalog behavior with incorrect product data
+
+ Modul: Product Catalog
+
+ Test Data: Username: problem_user; password: secret_sauce
+
+ Preconditions: The user is logged out.Application is available.Valid problem_user credentials are available.
+
+ Steps:
+ - log in to the application using problem_ user credentials
+
+ - verify that the product catalog page is displayed
+
+ - review the displayed product cards in the catalog
+
+ - compare the displayed product images,names,descriptions and prices with the corresponding product name and price
+
+ - verify several products in the catalog
+
+ Expected Result: Product image,name,description and price corresponds to the displayed product
+
+ Test Type: Functional Testing
+
+ Test Technique: Exploratory Testing
+
+ 3. SHOPPING CART
+
+NTC-05  Attempt to proceed to checkout with an empty cart
+
+Modul: Shopping Cart/Checkout
+
+Test Data: Username: standart user; password: secret_sauce
+
+Preconditions: User is logged in.Shopping cart is empty.
+
+Steps: 
+- open the shopping cart
+
+- verify that the cart is empty
+
+- attempt to proceed to checkout
+
+Expected Result: The system prevent the user from proceeding to checkout with an empty cart and the checkout page is not opened.
+
+Test Type:  Functional
+
+Test Technique: Error Guessing
+
+
+NTC-06 Verify remove product action is unavailable when the cart is empty
+
+Module: Shopping Cart
+
+Test Data: Username: standart_user; password: valid password
+
+Preconditions: User is logged in.Shopping cart is empty.
+
+Steps: 
+- open the shopping cart
+
+- verify that the shopping cart is empty
+
+- verify that no Remove button/ action is available for product removal
+
+Expected Result: The system does not provide a Remove action when the shopping cart is empty.
+
+Test Type: Functional Testing
+
+Test Technique: Negative Testing
+
+ 
+
+  
+
+     
 
 
 
