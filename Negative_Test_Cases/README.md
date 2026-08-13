@@ -206,6 +206,36 @@ Test Type: Functional Testing
 Test Technique: Negative Testing
 
 
+NTC-09 Verify application behavior when session cookie is deleted during an active session
+
+Module: Browser Storage /Network
+
+Test Data: standart_user
+
+Preconditions: user is logged in.A valid session cookie exists.Product catalog is displayed.
+
+Steps: 
+- open Application--Cookies in DevTools
+
+- select the SauceDemo domain
+
+- identify the session cookie
+
+- delete the session cookie
+
+- return to the application
+
+- refresh the page
+
+- attempt to access a page or functionality that requires authentication
+
+expected Result: The application detects that the authentication session is no longer valid and redirects the user to the login page( or otherwise prevents access to authenticated functionality)
+
+Test Type: Functional
+
+Test Technique:  Negative Testing
+
+
 
 
 
