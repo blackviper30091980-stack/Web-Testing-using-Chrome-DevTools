@@ -236,6 +236,35 @@ Test Type: Functional
 Test Technique:  Negative Testing
 
 
+NTC-10 Verify application behavior when cart-contents contains invalid product data
+
+Modul: Browser Storage/Cart
+
+Test Data: cart-content = [888] - invalid/non-existing product id
+
+Preconditions: User is logged in.Shopping cart is empty.Cart-cotents in Local  Storage contains [].
+
+Steps: 
+- open DevTools--Application--Local Storage
+
+- select https://www.saucedemo.com
+
+- locate the cart-contents key
+
+- change its value from [] to [888]
+
+- reload the application
+
+- open the shopping cart
+
+Expected Result: The application handles the invalid cart data gracefully:the invalid product is not added to the cart,the cart remains empty,and the cart counter is not displayed or remains 0.
+
+Test Type: Functional
+
+Test Technique: Negative Testing
+
+
+
 
 
 
