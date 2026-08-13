@@ -178,6 +178,35 @@ Test Technique: Negative Testing
 
 
 
+5. BROWSER STORAGE/NETWORK
+
+NTC-08 Verify application behavior when network requests fail
+
+Module: Browser Storage/Network
+
+Test Data: valid user credentials
+
+Preconditions: User is logged in.Product catalog page is opened.DevTools is open on the Network tab.
+
+Steps: 
+- add a product to the shopping cart
+
+- set the Network throttling mode to Offline
+
+- reload the page
+
+- observe the network request in the Network tab
+
+- observe the application behavior
+
+Expected Result: The network request cannot be completed while the browser is offline.The application handles the network failure gracefully without unexpected behavior.
+
+Test Type: Functional Testing
+
+Test Technique: Negative Testing
+
+
+
 
 
 
