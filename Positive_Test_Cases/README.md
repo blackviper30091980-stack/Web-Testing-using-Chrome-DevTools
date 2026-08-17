@@ -1,8 +1,8 @@
-1. AUTHENTIFICATION
+1. AUTHENTICATION
 
 TC-P-001 Login with valid credentials
 
-- Module: Authentification
+- Module: Authentication
 
 - Preconditions: SauceDemo website is available
 
@@ -25,7 +25,7 @@ TC-P-001 Login with valid credentials
 
 TC-P-002   Verify  susseccful logout
 
-- Module: Authentification
+- Module: Authentication
 
 - Preconditions: Saucedemo is available. The user is already logged in the system
 
