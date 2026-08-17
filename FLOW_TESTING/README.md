@@ -39,4 +39,29 @@ Expected: Product details page is displayed with the selected product informatio
 
 - add Sauce Lab Backpack to the cart
 
-Expected: Product is added to the shopping cart and cart indicator is updated
+Expected: Product is added to the shopping cart and cart indicator is updated.
+
+5.Shopping Cart
+
+- open the shopping cart
+
+Expected: The selected product is displayed in the cart with the correct information.
+
+6. Checkout
+
+- Proceed to checkout and enter valid customer information
+
+Expected: Checkout information is accepted and the user proceeds to the checkout overview page.
+
+7. Order Overview
+
+- review the order overview
+
+Expected: The selected product,quantity,price and total amount are displayed correctly.
+
+8.Complete Order
+
+- click Finish
+
+Expected: The order is successfully completed and the confirmation page is displayed.
+
