@@ -27,4 +27,16 @@ Expected: User is successfully authenticated and redirected to the Product page.
 
 - Browse the product catalog
 
- Expected: Product catalog is displayed and products are available for selection
+ Expected: Product catalog is displayed and products are available for selection.
+
+ 3.Product Details
+
+ - open the selected product
+
+Expected: Product details page is displayed with the selected product information
+
+4.Add Product to the Cart
+
+- add Sauce Lab Backpack to the cart
+
+Expected: Product is added to the shopping cart and cart indicator is updated
