@@ -348,7 +348,7 @@ Steps:
 
 - check the cart-content value again
 
-Expected Result: Tye cart-content key is present in the Local Storage.After adding a product the cart-contents value is updated and contains the identifier of the added product.After removing the product the cart-content value is updated accordingly.
+Expected Result: The cart-content key is present in the Local Storage.After adding a product the cart-contents value is updated and contains the identifier of the added product.After removing the product the cart-content value is updated accordingly.
 
 Test Type: Functional
 Test Technique: Checklist-based testing
