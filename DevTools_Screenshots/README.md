@@ -1,1 +1,1 @@
- This folder contains the examples of manual Web Testing performed as a part of my QA learning journey.It includes screenshots of positive and negative test cases,as well as end-to-end flow testing scenario executed using Chrome DevTools against www.saucedemo.com .
+ This folder contains the examples of manual Web Application Testing performed as a part of my QA learning journey.It includes screenshots of positive and negative test cases,as well as end-to-end flow testing scenario executed using Chrome DevTools against www.saucedemo.com .
